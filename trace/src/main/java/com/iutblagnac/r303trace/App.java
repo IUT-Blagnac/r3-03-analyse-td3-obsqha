@@ -17,4 +17,13 @@ public class App {
     public static String hello() {
         return "Hello World!";
     }
+/**
+    * @author Cardouat Alexi
+    *  methode hello() avec un paramettre String le retournant
+    * @param param
+    * @return String param
+    */  
+       public static String hello(String param) {
+           return param;
+       }
 }
